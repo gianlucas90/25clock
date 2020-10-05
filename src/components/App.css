@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-width: 55rem;
+  min-height: 50rem;
+  justify-content: space-around;
+  background-color: #333;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  border-radius: 3rem;
+  text-align: center;
+}
+
+#settings {
+  display: flex;
+  flex-direction: row;
+}
+
+#settings h2 {
+  font-size: 1.8rem;
+}
+
+.plusMin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#break,
+#session {
+  width: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.symbol {
+  background: none;
+  border: none;
+  padding: 0 2rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.8rem;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+#timer {
+  border: 0.2rem solid #fff;
+  border-radius: 5rem;
+  margin: 2rem 8rem;
+  padding-top: 2.2rem;
+}
+
+#controls {
+  cursor: pointer;
+  /* margin: 2rem 0; */
+}
+
+#time-left {
+  font-size: 7rem;
+}
